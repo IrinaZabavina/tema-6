@@ -1,0 +1,13 @@
+elements = [0,1,2,3,4,5]
+sum_elements = 0
+n=len(elements)
+
+for i in range(n):
+    if (i % 2 ==0):
+        sum_elements+= elements[i]
+        
+if n !=0:
+    answer=sum_elements*elements[n-1]
+    print(f'elements = {elements}, результат: {answer}')
+else:
+    print(f'elements = {elements}, результат: {0}')

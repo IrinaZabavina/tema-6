@@ -1,0 +1,3 @@
+initial_values=[4,6,-65,43,-2]
+sorted_values=sorted(initial_values, key=abs)
+print('elements=', initial_values, 'result = ', sorted_values)

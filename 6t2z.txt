@@ -1,0 +1,5 @@
+elements = [10.2, -2.2, 0, 1.1, 0.5]
+max_element=max(elements)
+min_element=min(elements)
+result = max_element-min_element
+print(round(result, 3))
